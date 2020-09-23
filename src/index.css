@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.form-control{
+  border: 1px solid #5b5e62 !important;
+}
+.card-header{
+  background-color: #333 !important;
+  border: 1px solid rgb(122 104 102) !important;
+  color: #f2f2f2;
+  text-align: center
+}
+.card{
+  border: 1px solid rgb(122 104 102) !important;
+}
+.justify{
+  justify-content: center;
+}
+button { 
+  background-color: #8BC34A; 
+  color: white; 
+  padding: 8px 40px; 
+  margin: 8px 0; 
+  border: none; 
+  cursor: pointer;
+  
+} 
+.nav {
+  background-color: #8BC34A !important;
+}
+a{
+  color: #121314 !important;
+}
+li.nav-item > a.active {
+  display: block;
+  width: 100%;
+  height:100%;
+  color: #121314 !important;
+  background-color: blue;
+}
+table{
+  width: 90% !important;
+  border: 2px solid !important;
+}
+.table td, .table th {
+  border-top: none !important;
+  border: 2px solid !important;
+  padding: .2rem !important;
+}
+
+.table thead th {
+  border-bottom: none !important;
+  border: 2px solid !important;
+}
+.table th{
+  background-color: #333;
+  color: #f2f2f2;
+}
+#table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.textdeco{
+  color: #0056b3 !important;
+    text-decoration: underline !important;
+}
+.padd{
+   padding: .5rem;
+   margin-left: 37rem;
+}
+.padd1{
+  padding: .4rem !important;
+  font-weight: bold;
+}
+.page-footer{
+  background-color: #333;
+  color: white;
+  position:fixed;
+    bottom:0;
+    width:100%;
+}
+body{
+  position: relative;
+}
+.error{
+  color: red;
+  top: 10px;
+    position: relative;
+    text-align: start;
+
+}
+.font{
+  font-size: 30px;
+  font-weight: bold;
+}
+.bold{
+  font-weight: bold;
+  font-size: 30px;
+}
